@@ -1,6 +1,6 @@
 import Sequelize, { Model } from "sequelize";
 
-class Aluno extends Model {
+export class Aluno extends Model {
   static init(sequelize) {
     super.init(
       {
@@ -18,5 +18,3 @@ class Aluno extends Model {
     return this;
   }
 }
-
-module.exports = new Aluno()

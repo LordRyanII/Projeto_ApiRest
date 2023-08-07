@@ -1,5 +1,5 @@
 import app from './app';
-const porta = 3001;
+const porta = 3000;
 app.listen(porta, () => {
     console.log('-----------------------------------------');
     console.log(`Servidor iniciado na porta ${porta}`);
